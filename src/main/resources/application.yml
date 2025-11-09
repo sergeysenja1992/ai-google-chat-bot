@@ -1,0 +1,20 @@
+application-properties:
+  openai:
+    api-key: ${OPENAI_API_KEY:}
+    base-url: ${OPENAI_BASE_URL:https://api.openai.com/v1}
+    router-model: ${OPENAI_ROUTER_MODEL:gpt-4.1-mini}
+    summary-model: ${OPENAI_SUMMARY_MODEL:gpt-4.1-mini}
+
+  google:
+    chat:
+      verification: ${GOOGLE_CHAT_VERIFICATION:}
+      bot-token: ${GOOGLE_CHAT_BOT_TOKEN:}
+      base-url: ${GOOGLE_CHAT_BASE_URL:https://chat.googleapis.com/v1}
+
+  pending-action:
+    ttl-seconds: ${PENDING_ACTION_TTL_SECONDS:900}
+
+  context:
+    thread-limit: ${CONTEXT_THREAD_LIMIT:20}
+    room-limit: ${CONTEXT_ROOM_LIMIT:30}
+    max-chars: ${CONTEXT_MAX_CHARS:8000}

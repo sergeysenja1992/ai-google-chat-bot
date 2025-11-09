@@ -1,9 +1,11 @@
-package software.jevera
+package software.jevera.gchatbot
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
+@ConfigurationPropertiesScan
 class GoogleChatBotApplication
 
 fun main(args: Array<String>) {
