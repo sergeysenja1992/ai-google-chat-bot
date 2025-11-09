@@ -1,4 +1,4 @@
-package software.jevera
+package software.jevera.gchatbot
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

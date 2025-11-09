@@ -1,0 +1,7 @@
+tasks:
+  - key: "currentTime"
+    description: "Return the current time for the user or space."
+  - key: "writeSummary"
+    description: "Get all messages from the thread plus the last N room messages; produce a concise summary."
+  - key: "askChatGPT"
+    description: "Answer a general question using the captured context."
